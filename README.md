@@ -10,13 +10,19 @@ Another example would be if we have a piece of software written for reading the 
 
 ROS very much rely on this publish-subscribe design pattern. However, it's not the only way that a robot can communicate. It's one of a larger message-oriented middleware system. A few advantages of this approach are scalability and modularity. 
 
-# Write a simple Int Publisher
+# Write a simple "Hello World" Publisher
 
-Now, let's try to write some Python code that simply publishes a bunch of integers. 
+Now, let's try to write some Python code that simply publishes the string "hello world" and the current timestamp.
+
+I would suggest you to follow along with with tutorial before cloning this repo and running the code.  
 
 ## Create a ROS Package. 
 
-Create a directory for your project, I called mine ROS tutorial. 
+Before we get started, let's look at what are packages in ROS. The following is taken from ROS's official documentation: 
+
+"Software in ROS is organized in packages ... The goal of these packages it to provide this useful functionality in an easy-to-consume manner so that software can be easily reused. In general, ROS packages follow a "Goldilocks" principle: enough functionality to be useful, but not too much that the package is heavyweight and difficult to use from other software."
+
+First, create a directory for your project, I called mine ROS tutorial. 
     
     mkdir ROS-tutorial
 
@@ -117,3 +123,13 @@ This is where the magic happens:
 
 You will see the screen logging some information. If you see hello world and the current timestamp. you have successfully completed this tutorial. 
 
+# Suggested Reading: 
+
+Please take a look at these articles for more detailed information on the content described in this tutorial: 
+
+[Packages](http://wiki.ros.org/Packages)
+[Understanding Topics](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
+[Understanding Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+[Simple Publisher](http://wiki.ros.org/rospy_tutorials/Tutorials/WritingPublisherSubscriber)
+
+**Please contact neil at yongyang.nie@columbia.edu for any questions, comments, suggestions, or concerns. Thank you!** 
