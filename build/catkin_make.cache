@@ -1,2 +1,2 @@
-simple_number_pub
+simple_number_pub:vision
 -DCATKIN_DEVEL_PREFIX=/home/neil/Desktop/ROS-tutorial/devel -DCMAKE_INSTALL_PREFIX=/home/neil/Desktop/ROS-tutorial/install -G Unix Makefiles

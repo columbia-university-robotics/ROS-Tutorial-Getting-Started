@@ -294,7 +294,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f simple_number_pub/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make simple_number_pub/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -307,7 +307,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f simple_number_pub/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make simple_number_pub/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f simple_number_pub/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make simple_number_pub/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f simple_number_pub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make simple_number_pub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f simple_number_pub/CMakeFiles/std_msgs_generate_messages_py.dir/build.make simple_number_pub/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f vision/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vision/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Help Target
