@@ -1,8 +1,0 @@
-prefix=/home/neil/Desktop/ROS-tutorial/devel
-
-Name: vision
-Description: Description of vision
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/neil/Desktop/ROS-tutorial/devel/lib 
-Requires: 
